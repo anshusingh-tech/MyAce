@@ -4,7 +4,7 @@ CREATE COMPUTE MODULE handler_Compute
 	CREATE FUNCTION Main() RETURNS BOOLEAN
 	BEGIN
 		CALL CopyMessageHeaders();
-		SET OutputRoot.JSON.Data.data = 'a string from ACE';
+		SET OutputRoot.JSON.Data.data = 'a string from ACE2';
 		-- CALL CopyEntireMessage();
 		RETURN TRUE;
 	END;
